@@ -17,7 +17,7 @@ interface Document {
 const mockDocuments: Document[] = [
   {
     id: '1',
-    title: 'Dosar Metary PSF',
+    title: 'Policy Approval ',
     department: 'IT',
     summary: 'Summary Subject: This involves preliminary approval process...',
     uploadDate: '2024-01-15',
@@ -27,7 +27,7 @@ const mockDocuments: Document[] = [
   },
   {
     id: '2',
-    title: 'Vendor Invoice #223-B12',
+    title: 'INVOICE PAYMENT',
     department: 'Finance',
     summary: 'Summary Subject: This involves vendor payment processing...',
     uploadDate: '2024-02-20',
@@ -37,7 +37,7 @@ const mockDocuments: Document[] = [
   },
   {
     id: '3',
-    title: 'Dosar Metary PuncB',
+    title: 'EMPLOYEE RECORDS',
     department: 'HR',
     summary: 'Summary Subject: This involves employee documentation...',
     uploadDate: '2024-03-10',
@@ -47,7 +47,7 @@ const mockDocuments: Document[] = [
   },
   {
     id: '4',
-    title: 'Dosar Metary #123-03',
+    title: 'TECHICAL SPECIFICATIONS',
     department: 'IT',
     summary: 'Summary Subject: This involves technical specifications...',
     uploadDate: '2024-01-25',
@@ -57,7 +57,7 @@ const mockDocuments: Document[] = [
   },
   {
     id: '5',
-    title: 'Dosar Metary B1015',
+    title: 'BUDGET ALLOCATION FY25',
     department: 'Finance',
     summary: 'Summary Subject: This involves budget allocation process...',
     uploadDate: '2024-02-28',
@@ -67,7 +67,7 @@ const mockDocuments: Document[] = [
   },
   {
     id: '6',
-    title: 'Dosar Metary #161-015',
+    title: 'RECRUITMENT PROCESS KMRL-2025',
     department: 'HR',
     summary: 'Summary Subject: This involves recruitment process documentation...',
     uploadDate: '2024-03-15',
@@ -114,10 +114,14 @@ const DocumentLibrary: React.FC = () => {
     console.log('Download document:', docId);
   };
 
+  
+
   const handleOpenViewer = (docId: string) => {
     console.log('Open in viewer:', docId);
   };
 
+
+  
   const handleUpload = () => {
     console.log('Upload document');
   };
